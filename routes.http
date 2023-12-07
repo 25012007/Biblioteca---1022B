@@ -1,0 +1,33 @@
+POST http://localhost:3333/livro
+Content-Type: application/json
+
+{
+    "titulo": "Livro 02",
+    "autor": "Autor 02",
+    "npaginas": 450
+}
+
+###
+
+GET http://localhost:3333/livro
+
+###
+
+GET http://localhost:3333/livro
+
+###
+
+
+PUT http://localhost:3333/livro/
+Content-Type: application/json
+
+{
+    "titulo": "Livro: IFMS",
+    "autor": "Autor: Marcela ",
+    "npaginas": 300
+}
+
+###
+ 
+//DELETA
+DELETE http://localhost:3333/livro/13a0180a-51f1-4fa8-93cb-fb3d6d3801c8
